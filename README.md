@@ -72,11 +72,20 @@ method_name: e.g., Cash, Card, UPI.
  Relationships (Simplified in words)
  
 One Customer → Many Orders
+
 One Staff → Many Orders
+
 One Role → Many Staff
+
 One Order → Many Order Items
+
 One Menu Item → Can be in Many Order Items
+
 One Order → One Payment
+
 One Payment Method → Many Payments
+
 One Category → Many Menu Items
+
 One Order → Belongs to One Table
+
